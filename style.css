@@ -1,0 +1,46 @@
+@charset "utf-8";
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding: 200px 0px 0px 200px;
+}
+#khung{
+	margin: 22px;
+    padding: 21px 15px 17px 13px;
+    border: 2px solid rosybrown;
+    width: 308px;
+}
+
+.clear_all {
+	clear: both;
+}
+#ketqua{
+	margin: 0px 1px 15px 10px;
+    padding: 7px 0px 18px 0px;
+    text-align: right;
+	width: 289px;
+	border: 1px solid royalblue;
+}
+
+.button{
+	margin:  0px 0px 15px 15px ;
+	padding: 10px 10px 10px 10px;
+	float: left;
+	text-align: center;
+	background-color: darkgray;
+	color: aliceblue;
+	width: 40px;
+
+}
+.button .first{
+	margin-left: 2px;
+}
+.button:hover{
+	background-color: chartreuse;
+}
+#ketqua:hover{
+	background-color: darkorange;
+}
+#khung:hover{
+	background-color: crimson;
+}
